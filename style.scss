@@ -1,0 +1,116 @@
+/*
+Theme Name: Nymble Starter Theme
+Theme URI: http://nymble.io/starter-theme
+Author: Nymble.io
+Author URI: http://nymble.io/
+Version: 1.0
+Tags: Minimal, Basic, Twitter Bootstrap, SASS, Underscore, Grunt, LiveReload.
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+@import 'assets/css/bootstrap';
+
+a,
+a:hover,
+a:active {
+	text-decoration: none!important;
+}
+
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#content {
+	padding-top: 35px;
+}
+
+.header-jumbotron {
+	margin-top: -35px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.entry-content {
+	& ul {
+		list-style: disc;
+	}
+	& ol {
+		list-style: decimal;
+	}
+}
+
+.comment-list {
+	padding-left: 0;
+}
+
+.icon-light-grey {
+	color: #c9c9c9;
+}
+
+.icon-margin-right {
+	margin-right: 5px;
+}
+
+.icon-margin-left {
+	margin-left: 5px;
+}
+
+.entry-meta {
+	& > span {
+		margin-right: 30px;
+	}
+	& > span a {
+		color: #949494;
+	}
+	.entry-tags {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.entry-tags li {
+		margin-right: 5px;
+	}
+	.entry-tags li a,
+	.entry-tags li a:hover,
+	.entry-tags li a:active {
+		color: #fff;
+	}
+}
+
+.entry-header .entry-title {
+	margin-top: 0!important;
+}
+
+.entry-meta {
+	margin-top: 22px;
+}
+
+.search-form .input-group-btn,
+.search-form .btn-regular {
+	height: 34px;
+}
+
+.cancel-reply-button {
+	vertical-align: 3px;
+	margin-left: 5px;
+}
+
+.comment-author img {
+	border-radius: 50%;
+}
+
+.comment-metadata {
+	margin-bottom: 10px;
+}
+
+.twbs-tooltip,
+.twbs-popover {
+	display: inline-block;
+}
+
+.twbs-popover {
+	cursor: pointer;
+}
